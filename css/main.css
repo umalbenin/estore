@@ -46,6 +46,10 @@ a, a:focus, a:hover {
     font-size: 14px;
 }
 
+.cart-summary .total-price {
+    float: right;
+}
+
 .bg-light {
     background-color: white !important;
 }
