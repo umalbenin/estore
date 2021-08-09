@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    margin-bottom: 30px;
+    padding: 10px;
+    color: black;
+}
+
+.img {
+    width: 80px;
+    height: 60px;
+}
+
+.product {
+    vertical-align: middle;
+}
+
+.price {
+    vertical-align: middle;
+}
+
+.quantity {
+    width: 80px;
+}
+
