@@ -160,7 +160,8 @@ ul > li .submenu {
 ul > li:hover .submenu{
     position: absolute;
     top: 35px;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
     opacity: 1;
     visibility: visible;
     /* display: block !important; */
