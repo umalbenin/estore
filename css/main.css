@@ -68,6 +68,22 @@ a, a:focus, a:hover {
     /* border: 1px solid lightgray; */
     border-radius: 6px;
 }
+@media screen and (max-width: 540px) {
+    .submenu {
+        z-index: 999;
+        position: absolute;
+        top: 30px;
+        left: 50%;
+        min-width: 512px;
+        width: 100%;
+        background-color: white;
+        /* margin-left: -512px; */
+        transform: translateX(-50%);
+        /* border: 1px solid lightgray; */
+        border-radius: 6px;
+
+    }
+}
 .has-submenu {
     position: relative;
 }
