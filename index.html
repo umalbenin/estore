@@ -21,12 +21,62 @@
             <div class="col-12 col-md-3 text-center pt-sm-2 pb-sm-2">
               <h3><a class="blog-header-logo text-dark" href="#">AVIATO</a></h3>
             </div>
-            <div class="col-12 col-md-5 d-flex justify-content-center justify-content-md-end align-items-md-center">              
-              <button type="button" class="btn btn-outline-light text-dark">
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i> Cart  
+            <div class="col-12 col-md-5 d-flex justify-content-center justify-content-md-end align-items-md-center">
+              <button type="button" class="btn btn-outline-light text-dark" style="position: relative; z-index: 9999;">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i> Cart
+                <div class="floating-topbar-container">
+                  <div class="row">
+                    <div class="col-4">
+                      <img src="https://demo.themefisher.com/aviato/images/shop/cart/cart-1.jpg" alt="cart item" class="img-thumbnail">
+                    </div>
+                    <div class="col-6 cart-item-details-wrapper">
+                      <span class="title">Glasses</span>
+                      <span class="text-muted info" > 1 x 1250.00</span>
+                      <span class="price">$1200</span>
+                    </div>
+                    <div class="col-2">
+                      <i class="fa fa-close"></i>
+                    </div>
+                  </div>
+                <div class="dropdown-divider"></div>
+                <div class="row">
+                  <div class="col-4">
+                    <img src="https://demo.themefisher.com/aviato/images/shop/cart/cart-2.jpg" alt="cart item" class="img-thumbnail">
+                  </div>
+                  <div class="col-6 cart-item-details-wrapper">
+                    <span class="title">Shirt</span>
+                    <span class="text-muted info" > 1 x 1250.00</span>
+                    <span class="price">$1200</span>
+                  </div>
+                  <div class="col-2">
+                    <i class="fa fa-close"></i>
+                  </div>
+                </div>
+              <div class="dropdown-divider"></div>
+                      <div class="total-container">
+                        <span>Total</span>
+                        <span>$2600</span>
+                      </div>
+                      <div class="dropdown-divider"></div>
+                      <div class="row cart-btns-wrapper text-center">
+                        <div class="col-6">
+                          <span class="custom-btn custom-btn-dark">View Cart</span>
+                        </div>
+                        <div class="col-6">
+                          <span class="custom-btn custom-btn-light">Checkout</span>
+                        </div>
+                      </div>
+                </div>
               </button>
               <button type="button" class="btn btn-outline-light text-dark mr-1 ml-1">
-                <i class="fa fa-search" aria-hidden="true"></i> Search  
+                <i class="fa fa-search" aria-hidden="true"></i> Search
+                <div class="floating-topbar-container">
+                  <form>
+                    <div class="form-group topbar-input">
+                      <input type="text" class="form-control w-100" id="topSearch" aria-describedby="emailHelp" placeholder="Search">
+                    </div>
+                  </form>
+                </div>
               </button>
               <div class="btn-group">
                 <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -44,7 +94,7 @@
         <hr>
       
 
-        <nav class="navbar navbar-expand-sm bg-light justify-content-center">
+        <nav class="navbar navbar-expand-sm bg-light justify-content-center" style="position: static !important;">
             <!-- Links -->
             <ul class="navbar-nav">
               <li class="nav-item">

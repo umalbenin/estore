@@ -1,4 +1,64 @@
 /* Top menu css */
+.floating-topbar-container {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    min-width: 320px;
+    display: none;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 10px;
+    /* transform: translateX(-50%); */
+}
+.btn:hover > .floating-topbar-container {
+    display: block;
+}
+.cart-btns-wrapper {
+}
+.custom-btn {
+    padding: 8px;
+    font-size: 12px;
+    border: 1px solid black;
+}
+.custom-btn-dark {
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.custom-btn-light {
+    width: 100%;
+    color: black;
+    background-color: white;
+}
+.custom-btn-light:hover {
+    background-color: black;
+    color: white;
+}
+.cart-item-details-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.cart-item-details-wrapper > .title {
+    font-size: 16px;
+}
+.cart-item-details-wrapper > .info {
+    
+}
+.cart-item-details-wrapper > .price {
+    padding-top: 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.total-container {
+    display: flex;
+    justify-content: space-between;
+}
+.total-container > span {
+    font-weight: bold;
+}
 .phone-text {
     text-decoration: none !important;
     font-size: 12px;
